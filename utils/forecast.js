@@ -15,10 +15,12 @@ const forecast=(latitude,longitude,callback)=>{
             console.log(message)
             temperature=body.current.temperature;
             feelslike=body.current.feelslike
+            humidity=body.current.humidity
             callback(undefined,{
                 message,
                 temperature,
-                feelslike
+                feelslike,
+                humidity
             })
         }
     })
