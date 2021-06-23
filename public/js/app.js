@@ -24,7 +24,7 @@ weatherForecast.addEventListener('submit',(e)=>{
         }
         //else{
             messageOne.textContent=''
-            messageTwo.textContent=data.forecast+' in '+data.location+' with temperature:'+data.temperature+' degrees.It feels like '+data.feelslike+' degrees,Humidity is:'+data.humidity
+            messageTwo.textContent=data.forecast+' in '+data.location+' with temperature:'+data.temperature+' degrees.It feels like '+data.feelslike+' degrees,Humidity is:'+data.humidity+'%'
         console.log(data.location)
         console.log(data.forecast)
         //}
