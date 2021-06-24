@@ -47,7 +47,9 @@ app.get('/about',(req,res)=>{
 //for help page.
 app.get('/help',(req,res)=>{
     res.render('help',{
-        message:'Please help yourself',
+        message:'Please help yourself by visiting github repo at:',
+        repo: 'https://github.com/VvkSingh98765/nodejs-weather-website',
+        email: 'https://mail.google.com/mail/u/0/#inbox?compose=CllgCJlLWWnwcnvbQMqvBLZJNwhHJLgxrxhnthZkfXXVrvDRDSJWjZmBhMTQPrXBTVRWJlZTKLq',
         title:'Help',
         name:'Vivek Singh'
     })
